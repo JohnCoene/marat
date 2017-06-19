@@ -1,17 +1,8 @@
 <div class="container">
-  <div class="row">
-    <div class="three columns center">
-      <a href="{{ site.baseurl }}/about/">abt</a>
-    </div>
-    <div class="three columns center">
-      <a href="#">blog</a>
-    </div>
-
-    <div class="three columns center">
-      <a href="#">twt</a>
-    </div>
-    <div class="three columns center">
-      <a href="#">rss</a>
-    </div>
-  </div>
+  <ul id="navlist" class="left">
+    <li><a href="{{ site.baseurl }}/">hme</a></li>
+    <li><a href="{{ site.baseurl }}/about/">abt</a></li>
+    <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">twt</a></li>
+    <li><a href="{{ site.baseurl }}/feed.xml">rss</a></li>
+  </ul>
 </div>

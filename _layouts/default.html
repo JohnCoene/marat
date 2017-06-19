@@ -13,13 +13,15 @@
       <p class="center">{{ site.author }}</p>
       <hr>
       <h1 class="brand center">{{ site.title | upcase }}</h1>
-      <h4 class="center">{{ site.description | markdownify }}</h4>
+      <h5 class="center">{{ site.description | markdownify }}</h5>
       <hr class="tag-hr">
       <p class="right">{{ site.tagline }}</p>
       <hr class="tag-hr">
       <div class="center">
+        <br>
         <h4>{{ site.location }}</h4>
         {% if site.date == true %}<h5>{{ site.time | date_to_long_string | upcase }}</h5>{% endif %}
+        <br>
       </div>
 
       {% include articles.html %}

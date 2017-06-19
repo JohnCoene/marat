@@ -2,7 +2,7 @@
 
 body{
   color: #0f0f0f;
-  padding-top: 5%;
+  padding-top: 2%;
   font-family: 'IM Fell DW Pica', serif;
   background-color: #F2F7F9;
   background-position: center;
@@ -58,6 +58,13 @@ hr {
     -webkit-hyphens: auto;
       -moz-hyphens: auto;
     hyphens: auto;
+}
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
 }
 
 @media only screen
