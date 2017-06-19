@@ -4,7 +4,7 @@
 
       {% cycle 'add row' : '<div class="row">', nil, nil%}
       <div class="four columns">
-        <a href="{{ post.url }}" class="link">
+        <a href="{{ site.baseurl }}/{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
         <div class="justify">
           {{ post.content | truncatewords:50 | strip_newlines }}
