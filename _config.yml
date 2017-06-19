@@ -29,6 +29,7 @@ twitter_username: jdatap
 language: fr
 
 # Build settings
+exclude: README.md
 markdown: kramdown
 theme: minima
 gems:
