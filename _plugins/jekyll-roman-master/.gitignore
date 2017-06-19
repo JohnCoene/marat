@@ -1,0 +1,6 @@
+*.gem
+Gemfile.lock
+spec/dest
+.bundle
+.jekyll-metadata
+.DS_Store

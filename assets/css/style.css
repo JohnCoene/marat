@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+English+SC');
+
+body{
+  color: #0f0f0f;
+  padding-top: 5%;
+  font-family: 'IM Fell DW Pica', serif;
+  background-color: #F2F7F9;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-image: url("../img/bg.jpg");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.brand{
+  font-family: 'IM Fell English SC', serif;
+  font-size: 3.5em;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+hr {
+	border-top: 4px double #000000;
+}
+
+.tag-hr{
+  width: 50%;
+  margin-right:0;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.italics{
+  font-style: italic;
+}
+
+.threecol::first-letter {
+  font-size: 2.5em;
+}
+
+.twocol::first-letter{
+  font-size: 2.5em;
+}
+
+.threecol.twocol p{
+  text-align: justify;
+    -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+@media only screen
+and (min-device-width : 768px)  {
+  .threecol {
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+    width: 100%;
+  }
+  .twocol {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    width: 100%;
+  }
+  .tag-hr{
+    width: 200px;
+    margin-right:0;
+  }
+}
