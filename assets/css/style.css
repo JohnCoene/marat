@@ -5,6 +5,7 @@ body{
   padding-top: 2%;
   font-family: 'IM Fell DW Pica', serif;
   background-color: #F2F7F9;
+  background-size: cover;
   background-position: center;
   background-repeat: repeat-y;
   background-image: url("../img/bg.jpg");
