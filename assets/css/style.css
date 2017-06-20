@@ -13,12 +13,38 @@ body{
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
+.author{
+  font-size: 1.3em;
+}
+
 .brand{
   font-family: 'IM Fell English SC', serif;
 }
 
 .title{
   font-size: 3.5em;
+}
+
+.line{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+}
+
+.flip{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.tag{
+  width: 50%;
+  margin-right:0;
 }
 
 #title{
@@ -47,7 +73,7 @@ hr.simple {
 }
 
 .tag-hr{
-  width: 50%;
+  width: 45%;
   margin-right:0;
 }
 
@@ -103,8 +129,8 @@ and (min-device-width : 768px)  {
     column-gap: 20px;
     width: 100%;
   }
-  .tag-hr{
-    width: 200px;
+  .tag{
+    width: 23%;
     margin-right:0;
   }
 }

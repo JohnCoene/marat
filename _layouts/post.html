@@ -11,19 +11,17 @@
 
     <main>
       <div class="container">
-        <hr class="double">
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line">
         <p class="center">[&nbsp;N<sup>o</sup> {{ page.index | roman }}&nbsp;]
         <span style="float:right;">&nbsp;{{ page.keywords }}</span></p>
-        <hr class="simple">
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">
 
         <h2 class="brand center" id="title">{{ page.title | upcase }}</h2>
+        {% if page.abstract %}<h5 class="center">{{ page.abstract }}</h5>{% endif %}
         {% if page.category %}
-        <hr class="tag-hr simple">
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag flip">
         <p class="right">{{ page.category }}</p>
-        <hr class="tag-hr simple">
-        {% else %}
-        <hr class="simple">
-        <br class="simple">
+        <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag">
         {% endif %}
         <h5 class="center">{{ page.date | date_to_long_string | upcase }}</h5>
 

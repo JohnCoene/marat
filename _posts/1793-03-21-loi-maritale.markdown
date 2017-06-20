@@ -6,6 +6,7 @@ date:   2017-06-19 09:59:38 +0800
 index: 5
 category: liberty
 keywords: Freedom and liberty
+abstract: En ordonnant aux troupes de marcher contre les citoyens assemblés, il anéantit la nation, qui n'existe que par la réunion des individus.
 ---
 
 Non, il n'est point de malheurs qu'on n'ait sujet d'attendre de ce funeste décret ; point d'attentats dont il ne soit la source.
