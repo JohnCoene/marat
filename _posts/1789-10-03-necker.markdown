@@ -4,7 +4,7 @@ title:  "Dénonciation contre Necker"
 author: Jean-Paul Marat
 date:   2017-06-19 09:59:38 +0800
 index: 1
-category: Reign of Terror
+category: Terror
 keywords: Freedom and liberty
 ---
 
