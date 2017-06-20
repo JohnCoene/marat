@@ -2,8 +2,7 @@
 layout: post
 title:  "Evolution du journal"
 author: Jean-Paul Marat
-date:   2017-06-19 09:59:38 +0800
-index: 4
+date:   1793-03-19
 keywords: Freedom and liberty
 ---
 

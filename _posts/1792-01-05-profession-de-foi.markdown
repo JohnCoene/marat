@@ -2,8 +2,7 @@
 layout: post
 title:  "Profession de foi de marat"
 author: Jean-Paul Marat
-date:   2017-06-19 09:59:38 +0800
-index: 3
+date:   1792-01-05
 category: liberty
 ---
 

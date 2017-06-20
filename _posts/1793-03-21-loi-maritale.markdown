@@ -2,8 +2,7 @@
 layout: post
 title:  "Protestation contre la loi martiale"
 author: Jean-Paul Marat
-date:   2017-06-19 09:59:38 +0800
-index: 5
+date:   1793-03-21
 category: liberty
 keywords: Freedom and liberty
 abstract: En ordonnant aux troupes de marcher contre les citoyens assemblés, il anéantit la nation, qui n'existe que par la réunion des individus.

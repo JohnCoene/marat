@@ -2,8 +2,7 @@
 layout: post
 title:  "Le gouverenment est l'ennemi du peuple"
 author: Jean-Paul Marat
-date:   2017-06-19 09:59:38 +0800
-index: 5
+date:   1792-03-19
 category: liberty
 keywords: Freedom and liberty
 ---

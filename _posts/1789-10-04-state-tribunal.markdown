@@ -2,8 +2,7 @@
 layout: post
 title:  "Il faut creer un tribunal d'etat"
 author: Jean-Paul Marat
-date:   2017-06-19 09:59:38 +0800
-index: 2
+date:   1789-10-04
 category: liberty
 keywords: Freedom and liberty
 ---

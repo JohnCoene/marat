@@ -25,7 +25,6 @@ date: true
 baseurl: "/marat" # the subpath of your site, e.g. /blog
 url: "http://johncoene.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: Jean-Paul Marat
-twitter_username: jdatap
 language: fr
 
 # Build settings

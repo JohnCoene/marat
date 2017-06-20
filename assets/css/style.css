@@ -13,8 +13,18 @@ body{
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
+#navlist > .active > a{
+    color: #000;
+    text-decoration: overline;
+}
+
 .author{
   font-size: 1.3em;
+  padding-top: 20px;
+}
+
+.tagline{
+  padding-top: 20px;
 }
 
 .brand{
