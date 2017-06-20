@@ -11,23 +11,23 @@
 
     <main>
       <div class="container">
-        <hr>
+        <hr class="double">
         <p class="center">[&nbsp;N<sup>o</sup> {{ page.index | roman }}&nbsp;]
         <span style="float:right;">&nbsp;{{ page.keywords }}</span></p>
+        <hr class="simple">
 
-        <hr>
-        <h1 class="brand center">{{ page.title | upcase }}</h1>
+        <h2 class="brand center" id="title">{{ page.title | upcase }}</h2>
         {% if page.category %}
-        <hr class="tag-hr">
+        <hr class="tag-hr simple">
         <p class="right">{{ page.category }}</p>
-        <hr class="tag-hr">
+        <hr class="tag-hr simple">
         {% else %}
-        <hr class="post">
-        <br>
+        <hr class="simple">
+        <br class="simple">
         {% endif %}
         <h5 class="center">{{ page.date | date_to_long_string | upcase }}</h5>
 
-        <div class="threecol">
+        <div class="threecol justify">
           {{ content }}
         </div>
 

@@ -9,14 +9,14 @@
     {% include nav.html %}
 
     <div class="container">
-      <hr>
+      <hr class="double">
       <p class="center">{{ site.author }}</p>
-      <hr>
-      <h1 class="brand center">{{ site.title | upcase }}</h1>
+      <hr class="simple">
+      <h1 class="brand title center">{{ site.title | upcase }}</h1>
       <h5 class="center">{{ site.description | markdownify }}</h5>
-      <hr class="tag-hr">
+      <hr class="tag-hr simple">
       <p class="right">{{ site.tagline }}</p>
-      <hr class="tag-hr">
+      <hr class="tag-hr simple">
       <div class="center">
         <h5>{{ page.description }}</h5>
         {% if site.date == true %}<h5>{{ site.time | date_to_long_string | upcase }}</h5>{% endif %}
