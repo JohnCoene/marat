@@ -12,4 +12,4 @@ Marat is fully responsive, light and fast.
 2. Replace/Delete the posts
 3. Change this page: about.md
 4. Change or add your links in the nav.yml file located in the \_data folder
-4. Start blogging
+5. Enlighten the masses!
