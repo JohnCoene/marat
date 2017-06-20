@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+English+SC');
 
 body{
+  height: 100%;
   text-decoration-skip: ink;
   color: #2f2f2f;
   padding-top: 5%;
@@ -11,6 +12,15 @@ body{
   background-repeat: repeat-y;
   background-image: url("../img/bg.jpg");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgba(47, 47, 47, 0.6)
 }
 
 #navlist > .active > a{

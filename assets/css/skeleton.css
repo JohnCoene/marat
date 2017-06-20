@@ -157,7 +157,8 @@ p {
 a {
   color: #2f2f2f; }
 a:hover {
-  color: #000; }
+  color: #000;
+  text-shadow: 3px 3px 1px rgba(47,47,47,0.2);}
 
 
 /* Buttons

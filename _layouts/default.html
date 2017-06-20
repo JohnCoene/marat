@@ -11,7 +11,7 @@
       <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line">
       <p class="center author">{{ site.author }}</p>
       <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line flip">
-      <h1 class="brand title center">{{ site.title | upcase }}</h1>
+      <h1 class="brand title center" id="type">{{ site.title | upcase }}</h1>
       <h5 class="center">{{ site.description | markdownify }}</h5>
       <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag flip">
       <p class="right tagline">{{ site.tagline }}</p>
@@ -24,6 +24,9 @@
       </div>
       {% include articles.html %}
     </div>
+
+    {% include foot.html %}
+    {% include footer.html %}
 
   </body>
 </html>

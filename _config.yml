@@ -38,5 +38,3 @@ exclude:
   - Gemfile.lock
 plugins_dir:
   - jekyll-roman
-  - jekyll-hyphenate_filter
-  - text-hyphen
