@@ -13,3 +13,10 @@ Marat is fully responsive, light and fast.
 3. Change this page: about.md
 4. Change or add your links in the nav.yml file located in the \_data folder
 5. Enlighten the masses!
+
+Plugins:
+
+Marat includes the following plugins.
+
+* [jekyll-roman](https://github.com/paulrobertlloyd/jekyll-roman)
+* [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)

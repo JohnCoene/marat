@@ -25,7 +25,26 @@ date: true
 baseurl: "/marat" # the subpath of your site, e.g. /blog
 url: "http://johncoene.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: Jean-Paul Marat
-language: fr
+google_analytics: UA-101394056-1
+
+# SEO
+twitter:
+  username: jdatap
+
+logo: /assets/logo.png
+
+lang: fr
+
+facebook:
+ app_id: 101766790448070
+
+social:
+  name: John Coene
+  links:
+    - https://twitter.com/jdatap
+    - https://www.linkedin.com/in/johncoene
+    - https://plus.google.com/109009224717674019651
+    - https://github.com/JohnCoene
 
 # Build settings
 exclude: README.md
@@ -38,3 +57,4 @@ exclude:
   - Gemfile.lock
 plugins_dir:
   - jekyll-roman
+  - jekyll-seo-tag

@@ -13,6 +13,14 @@ body{
   background-image: url("../img/bg.jpg");
 }
 
+body::selection{
+  background: #fff2a8;
+}
+
+p::selection{
+  background: lightgrey;
+}
+
 .footer {
   position: relative;
   bottom: 0;
@@ -118,8 +126,8 @@ hr.simple {
 
 .threecol,
 .twocol{
-  -ms-word-break: break-all;
-  word-break: break-all;
+  -ms-word-break: keep-all;
+  word-break: keep-all;
   hyphens: auto;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;

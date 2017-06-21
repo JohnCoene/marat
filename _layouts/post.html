@@ -27,6 +27,7 @@
         <p class="right tagline">{{ page.category }}</p>
         <img src="{{ site.baseurl }}/assets/img/grunge.png" alt="" class="line tag">
         {% endif %}
+        <br>
         <h4 class="center space">{{ site.location | upcase }}</h4>
         <h5 class="center">{{ page.date | date_to_long_string | upcase }}</h5>
 
@@ -34,7 +35,7 @@
           {{ content }}
         </div>
 
-        <p class="right italics">by {{ site.author }}</p>
+        <p class="right italics">by {{ page.author }}</p>
       </div>
     </main>
 
