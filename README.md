@@ -12,6 +12,14 @@ Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%2
 2. Replace/Delete the posts
 3. Change `about.md`
 4. Change or add your links in the `nav.yml` file located in the `_data` folder
-5. Enlighten the masses!
+5. Replace the `favicon.ico`
+6. Enlighten the masses!
 
 > Unlike Marat's pamphlets the theme is fully responsive.
+
+Plugins:
+
+Marat includes the following plugins.
+
+* [jekyll-roman](https://github.com/paulrobertlloyd/jekyll-roman)
+* [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)

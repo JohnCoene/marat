@@ -12,7 +12,8 @@ Marat is fully responsive, light and fast.
 2. Replace/Delete the posts
 3. Change this page: about.md
 4. Change or add your links in the nav.yml file located in the \_data folder
-5. Enlighten the masses!
+5. Replace favicon.ico in root folder
+6. Enlighten the masses!
 
 Plugins:
 
