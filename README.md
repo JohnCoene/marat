@@ -13,7 +13,8 @@ Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%2
 3. Change `about.md`
 4. Change or add your links in the `nav.yml` file located in the `_data` folder
 5. Replace the `favicon.ico`
-6. Enlighten the masses!
+6. Customise the `404.md` page in the root directory
+7. Enlighten the masses!
 
 > Unlike Marat's pamphlets the theme is fully responsive.
 

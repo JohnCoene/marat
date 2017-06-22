@@ -13,7 +13,8 @@ Marat is fully responsive, light and fast.
 3. Change this page: about.md
 4. Change or add your links in the nav.yml file located in the \_data folder
 5. Replace favicon.ico in root folder
-6. Enlighten the masses!
+6. Customise the 404.md page in the root directory
+7. Enlighten the masses!
 
 Plugins:
 
