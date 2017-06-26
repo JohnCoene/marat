@@ -7,7 +7,7 @@
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
         <div class="justify">
-          {{ post.content | truncatewords:50 | strip_newlines }}
+          {% if post.abstract %}{{ post.abstract }}{% else %}{{ post.content | truncatewords:50 | strip_newlines }}{% endif %}
         </div>
         </a>
       </div>
