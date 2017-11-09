@@ -4,7 +4,7 @@
 
 Revive the values of the Enlightenment with `marat`.
 
-See [Marat action](http://johncoene.github.io/marat).
+See [Marat in action](http://johncoene.github.io/marat).
 
 Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%27Ami_du_peuple), a newspaper written by [Jean-Paul Marat](https://en.wikipedia.org/wiki/Jean-Paul_Marat) during the French Revolution, in which he was a j vocal advocate for the rights of man and liberty.
 
