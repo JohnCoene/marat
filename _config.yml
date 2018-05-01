@@ -23,7 +23,7 @@ tagline: vitam impendere vero
 location: Versailles
 date: true
 baseurl: "/marat" # the subpath of your site, e.g. /blog
-url: "http://johncoene.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://marat.john-coene.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: Jean-Paul Marat
 google_analytics: UA-101394056-1
 
