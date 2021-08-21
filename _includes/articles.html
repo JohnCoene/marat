@@ -2,7 +2,7 @@
 
   {% for post in site.posts %}
 
-      {% cycle 'add row' : '<div class="row">', nil, nil%}
+      {% cycle 'add row' : '<div class="row">', '', '' %}
       <div class="four columns">
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
@@ -11,7 +11,7 @@
         </div>
         </a>
       </div>
-      {% cycle 'end row' : nil, nil, '</div>' %}
+      {% cycle 'end row' : '', '', '</div>' %}
   {% endfor %}
-  {% cycle 'end row' : nil, '</div>', '</div>', '</div>' %}
+  {% cycle 'end row' : '', '</div>', '</div>', '</div>' %}
 </div>
